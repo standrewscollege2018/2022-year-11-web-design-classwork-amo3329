@@ -1,0 +1,56 @@
+/* Style sheet */
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+/* Change background colour */
+body {
+  background-color: #557a8a;
+  margin: 15px;
+}
+
+
+h1 {
+  font-family: calibri; sans-serif;
+  color: #ffffff;
+  margin: 20px 0px 20px 0;
+  line-height: 15px;
+}
+
+
+h2 {
+  font-family: calibri; sans-serif;
+  color: #ffffff;
+  margin: 15px 15px 15px 0;
+}
+
+
+p {
+  font-family: calibri; sans-serif;
+  color: #ffffff;
+  margin: 5px 5px 5px 0;
+}
+
+a {
+  text-decoration: none;
+  color: #004461;
+  margin: 10px 0 10px 0px;
+}
+
+
+a:hover {
+  text-decoration: underline;
+  color: #004461;
+}
+
+ul{
+  margin-bottom: 15px;
+}
+
+li {
+  color: #ffffff;
+  margin: 3px 3px 3px 25px;
+  font-family: calibri; sans-serif;
+}
