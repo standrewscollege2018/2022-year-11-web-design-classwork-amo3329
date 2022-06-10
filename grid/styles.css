@@ -1,1 +1,35 @@
 /* Grid stylesheet */
+
+* {
+  margin: 0px
+  padding: 0px
+}
+
+body  {
+  background-color: #000000;
+}
+
+p {
+  color: #a4eb0f;
+}
+
+
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.nav_bar {
+  background-color: #ff0000;
+}
+
+.small_text {
+  color: #00ffaa;
+  background-color: #eeb81f
+}
+
+.big_text {
+  color: #a4eb0f;
+  background-color: #dd21e4
+}
