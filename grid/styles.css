@@ -16,13 +16,16 @@ p {
 
 
 .navbar-container {
+  position: sticky;
+  top: 0;
   display: grid;
-  padding: 20px
-  grid-template-columns: 1fr;
+  padding: 20px;
+  grid-template-columns: 2fr 2fr;
+  background-color: #ff0000;
 }
 
 .navbar-links {
-  background-color: #ff0000;
+
 }
 
 /* format cards */
