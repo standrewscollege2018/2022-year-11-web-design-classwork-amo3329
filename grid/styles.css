@@ -15,21 +15,34 @@ p {
 
 
 
-.container {
+.navbar-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
 
-.nav_bar {
+.navbar-links {
   background-color: #ff0000;
 }
 
-.small_text {
-  color: #00ffaa;
-  background-color: #eeb81f
+/* format cards */
+.content-container {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-column-gap: 10px;
 }
 
-.big_text {
-  color: #a4eb0f;
-  background-color: #dd21e4
+.card {
+  border: 3px solid #ff0000;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+/* Dealing with images in cards */
+.card > img {
+  max-width: 100%;
+  height: auto;
+}
+
+.card > p {
+  margin-left: 10px;
 }
