@@ -1,0 +1,48 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+
+.banner-image {
+  display: grid;
+  grid-template-columns: 1fr;
+
+}
+
+.banner-image img {
+  max-width: 100%;
+  height: auto;
+}
+
+.navbar-container {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(4, 5fr);
+  text-align: center;
+}
+
+.navbar-link p {
+  font-family: calibri; sans-serif;
+  margin: 12px;
+}
+
+.video-container {
+  display: grid;
+  grid-template-columns: 80%;
+  justify-content: center;
+  margin: 10px;
+}
+
+.main-content {
+  display: grid;
+  grid-template-columns: 80%;
+  justify-content: center;
+  margin: 10px;
+
+}
+
+.main-content p {
+  font-family:  calibri; sans-serif;
+  color: #226096;
+}

@@ -25,15 +25,15 @@ p {
 }
 
 .navbar-links {
-
+  text-align: right;
 }
 
 /* format cards */
 .content-container {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-column-gap: 10px;
-  grid-row-gap: 10px;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  grid-column-gap: 15px;
+  grid-row-gap: 15px;
 }
 
 .card {
@@ -50,4 +50,19 @@ p {
 
 .card > p {
   margin-left: 10px;
+}
+
+
+.stuff-container {
+  display: grid;
+  grid-template-columns: 2fr, 2fr;
+  grid-row-gap: 10px;
+}
+
+.main {
+  background-color: #ff0000;
+}
+
+.side {
+  background-color: #0000ff;
 }
