@@ -46,20 +46,24 @@
 
 .content-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   border-left: 50px solid #226096;
   border-right: 50px solid #226096;
   justify-content: center;
   grid-column-gap: 15%;
-  padding-left: 15%;
+  padding: 15px;
+}
 
-
+@media only screen and (maxwidth:300px){
+  .navbar-container {
+    /* put stuff here */
+  }
 }
 
 .main-content p {
   font-family:  calibri; sans-serif;
   color: #226096;
-  margin: 10px;
+  margin: 10px 10px 10px 0;
 }
 
 .event-content p{
