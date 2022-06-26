@@ -47,7 +47,6 @@ a {
 .video-container {
   position: relative;
   padding-bottom: 56.25%;
-  margin: 10px 20% 10px 20%;
 }
 
 .video-container iframe {
@@ -60,16 +59,16 @@ a {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   padding: 15px;
+  grid-column-gap: 20px;
 }
 
 .main-content {
-  column-span: 2;
+  grid-column: span 2;
 }
 
 .main-content p {
   font-family:  calibri; sans-serif;
   color: #226096;
-  margin: 10px 20% 10px 20%;
 
 }
 
